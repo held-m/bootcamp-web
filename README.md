@@ -16,7 +16,7 @@
 		gpasswd -a user yourUserName
 
 6. Start `docker-compose up`
-7. In a browser open `http://localhost:8000` . You should see %some Title%
+7. In a browser open `http://localhost:8000` . You should see instruction.
 
 ## Plan
 1. PHP
