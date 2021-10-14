@@ -5,7 +5,7 @@
 2. `git clone git@github.com:<YOU>/bootcamp-web.git` change `<YOU>` to your name in git. example `git clone git@github.com:held-m/bootcamp-web.git`
 3. `cd bootcamp-web`
 4. Create a new branch with your name or nickname `git checkout -b yourName`
-5. Install docker and docker-compose. ( https://docs.docker.com/engine/install/ ).
+5. Install docker and docker-compose. ( https://docs.docker.com/engine/install/ or https://www.youtube.com/watch?v=33c0uBjGgdM ).
 
 	For archlinux:
 
