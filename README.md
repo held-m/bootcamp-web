@@ -28,3 +28,6 @@
 ## Usefull links
 How use git: https://learngitbranching.js.org/
 
+##TODO:
+ - add env. ports&passwords
+ - depends in docker-compose
