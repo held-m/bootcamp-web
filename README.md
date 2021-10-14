@@ -24,3 +24,7 @@
 3. HTML/CSS
 2. JS
 3. VUE
+
+## Usefull links
+How use git: https://learngitbranching.js.org/
+
