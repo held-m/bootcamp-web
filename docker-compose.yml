@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+  nginx:
+    image: nginx
+    container_name: bootcamp_nginx
+    volumes:
+      - ./dev-ops/nginx/templates:/etc/nginx/templates
+      - ./src:/var/www/html
+    ports:
+      - 8000:80
+    depends_on:
+      - php
+    links:
+      - php
+  php:
+    build:
+      context: ./dev-ops/php/
+      dockerfile: Dockerfile
+    container_name: bootcamp_php74
+    volumes:
+      - ./src:/var/www/html
+  mysql:
+    image: mariadb
+    container_name: bootcamp_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+  phpadmin:
+    image: phpmyadmin
+    container_name: bootcamp_phpadmin
+    ports:
+      - 8001:80
+    environment:
+      MYSQL_ROOT_PASSWORD: root
