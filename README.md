@@ -7,7 +7,7 @@
 4. Create a new branch with your name or nickname `git checkout -b yourName`
 5. Install docker and docker-compose. ( https://docs.docker.com/engine/install/ ).
 
-	For arch:
+	For archlinux:
 
 		sudo pacman -S docker docker-compose
 		sudo systemctl start docker.service
