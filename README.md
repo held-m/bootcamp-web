@@ -18,5 +18,9 @@
 6. Start `docker-compose up`
 7. In a browser open `http://localhost:8000` . You should see %some Title%
 
-## learn PHP
-1. In browser open `http://localhost:8000` and select learn PHP.
+## Plan
+1. PHP
+2. Symfony
+3. HTML/CSS
+2. JS
+3. VUE
