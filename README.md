@@ -2,9 +2,9 @@
 
 ## How to start:
 1. Make fork of the repository
-2. Create a new branch with your name or nickname
-3. `git clone git@github.com:held-m/bootcamp-web.git`
-4. `cd bootcamp-web`
+2. `git clone git@github.com:held-m/bootcamp-web.git`
+3. `cd bootcamp-web`
+4. Create a new branch with your name or nickname `git checkout -b yourName`
 5. Install docker and docker-compose. ( https://docs.docker.com/engine/install/ ).
 	For arch:
 		`sudo pacman -S docker docker-compose`
