@@ -8,7 +8,7 @@
 </header>
 <div class="contentContainer">
     <ul>
-        <li class="stepList">Watch <a href="https://www.youtube.com/watch?v=2eebptXfEvw">PHP tutorial</a> and repeat code in the directory <span class="code">tutorial</span> till database.
+        <li class="stepList">Watch <a href="https://www.youtube.com/watch?v=2eebptXfEvw">PHP tutorial</a> and repeat code in the directory <span class="code">tutorial</span> till <b>database</b>.
             <ul>
                 <li> In <span class="code">tutorial</span> create a directory with name of lesson with <span class="code">index.php</span> file. </li> 
                 <li>Check result in browser <span class="code">http://localhost:8000/php/tutorial/nameOfDirectory</span></li>
