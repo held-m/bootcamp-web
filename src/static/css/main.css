@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Thin.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Medium.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-MediumItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-BoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-Black.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/static/css/fonts/Roboto-BlackItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Roboto, Arial;
+    background-color: #dcd4d4;
+}
+
+h1 {
+    text-align: center
+}
+
+p {
+    color: #000
+}
+
+img {
+    border: 0;
+    outline: 0
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    color: #b07b20;
+    font-weight: 600;
+}
+
+li {
+    margin: 10px 0 0 0;
+}
+
+.contentContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.lernButton {
+	border: 1px solid blue;
+	width: 200px;
+	height: 100px;
+	display: grid;
+	place-items: center;
+}
+
+.stepList {
+    border: 1px solid #a79e90;
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 20px;
+}
+
+.code {
+	background-color: #b8ac97;
+}

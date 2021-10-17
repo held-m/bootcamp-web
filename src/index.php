@@ -1,21 +1,14 @@
 <html>
-	<head></head>
-	<body>
-
-
-		<h1 style="text-align: center;">Hi!</h1>
-		<div class="lernButton"><a href="/php/">Lern php</a></div>
+    <head>
+       <link rel="stylesheet" href="/static/css/main.css?ver=0.0.3" type="text/css"> 
+    </head>
+    <body>
+<header>
+        <h1>Hi!</h1>
+</header>
+        <div class="contentContainer"> 
+        <div class="lernButton"><a href="/php/">Lern php</a></div>
+    </div>
 	</body>
-
-
-<style>
-	.lernButton {
-		border: 1px solid blue;
-		width: 200px;
-		height: 100px;
-		display: grid;
-		place-items: center;
-	}
-</style>
 
 </html>
