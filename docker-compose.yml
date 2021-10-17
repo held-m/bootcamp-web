@@ -32,3 +32,4 @@ services:
       - 8001:80
     environment:
       MYSQL_ROOT_PASSWORD: root
+      PMA_HOST: mysql
