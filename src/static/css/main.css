@@ -109,6 +109,7 @@ li {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    gap: 10px;
 }
 
 .lernButton {
@@ -119,6 +120,10 @@ li {
 	place-items: center;
 }
 
+.lernButtonImg {
+    height: 80px;
+}
+
 .stepList {
     border: 1px solid #a79e90;
     list-style: none;
@@ -127,5 +132,9 @@ li {
 }
 
 .code {
-	background-color: #b8ac97;
+	background-color: #c3bbbb;
+    padding: 1px 5px;
+}
+.adviceHead {
+    color: #544a4a;
 }
