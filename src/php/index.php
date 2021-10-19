@@ -26,7 +26,14 @@
 	            <li>In same time read <a href="https://www.amazon.de/-/en/Aditya-Bhargava/dp/1617292230">the book (Grokking Algorithms)</a> </li>
             </ul>
         </li>
-        <li class="stepList">Continue to watch <a href="https://www.youtube.com/watch?v=2eebptXfEvw">PHP tutorial</a> and repeat code in directory <span class="code">tutorial</span></li>
+        <li class="stepList"><b>Step 3:</b> Watch <a href="https://www.youtube.com/watch?v=2eebptXfEvw">PHP tutorial</a> to the end and repeat code in directory <span class="code">tutorial</span>. 
+            <h4 class="adviceHead">Some advice:</h4>
+            <ul>
+                <li> Just try understand and repeat.</li>
+                <li> In same time read  <a href="https://www.amazon.de/-/en/Eric-Freeman/dp/149207800X/ref=pd_bxgy_img_1/261-0582468-7014102?pd_rd_w=R6gnN&pf_rd_p=289750ef-2548-403a-9263-64d1c3b3297e&pf_rd_r=9MEXAZF4SFJPZWPQXKK3&pd_rd_r=f075c070-f9c1-480d-882b-3c66c4782b9d&pd_rd_wg=2xCbE&pd_rd_i=149207800X&psc=1">the book "Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software"</a> </li> 
+                <li>Write some patterns from the book</li>
+            </ul>    
+        </li> 
     </ul>
 </div>
 </body> 
