@@ -9,8 +9,9 @@
 </head>
 <body>
 <?php
-    function  hello($name) {
-        echo "Hello I am $name";
+    function  hello($name): void
+    {
+        echo "Hello I am $name"."<br>";
     }
 
     hello("Saskia");
@@ -18,7 +19,8 @@
 
     echo '<br>';
 
-    /*function sum(...$numbers) {
+    /*function sum(...$numbers): mixed
+    {
 
         $summe = 0;
         for ($i = 0; $i < 6; $i++) {
@@ -27,7 +29,8 @@
         return $summe;
     }*/
 
-    /*function sum(...$numbers) {
+    /*function sum(...$numbers): mixed
+    {
         $sum = 0;
         foreach($numbers as $n) {
             $sum += $n;
@@ -35,11 +38,51 @@
         return $sum;
     }*/
 
-    function sum(...$nums) {
+    function sum(...$nums): int
+    {
         return array_reduce($nums, fn($carry, $n) => $carry + $n);
     }
 
     echo sum(1, 2, 3, 4, 5, 6);
+
+    function one($name): void
+    {
+        echo "<br>"."Hello $name"."<br>";
+    }
+
+    one("Max");
+
+    function two($age): int
+    {
+        return $age;
+    }
+
+    echo two(23);
+
+    function three($greeting): string
+    {
+        return "<br>".$greeting."<br>";
+    }
+
+    echo three("Huhu");
+
+    $fruits = ["Banana, Apple"];
+    function four($arr): array
+    {
+        return $arr;
+    }
+   var_dump(four($fruits));
+
+    echo '<br>';
+
+    function five($x): bool
+{
+    return ($x>4);
+}
+
+var_dump(five(5));
+
+
 ?>
 </body>
 </html>

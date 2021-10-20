@@ -75,12 +75,51 @@
       $fruits = ["banana", "apple", "orange"];
       var_dump($fruits);
 
-      $veggies = ["potato", "cucumber"];
-      array_merge($fruits, $veggies);
+    $veggies = ["potato", "cucumber"];
+
+    echo '<pre>';
+    var_dump(array_merge($fruits, $veggies));
+    var_dump([...$fruits, ...$veggies]);
+    echo '</pre>';
+
+    sort($fruits);
+    echo '<pre>';
+    var_dump($fruits);
+    echo '</pre>';
+
+    $person = [
+        'name' => 'Max',
+        'surname' => 'Müller',
+        'age' => 30,
+        'hobbies' => ['Tennis', 'Video Games']
+    ];
+
+    echo '<pre>';
+    print_r($person);
+    echo '</pre>';
+
+    echo $person['name'].'<br>';
+
+    $person['job'] = 'teacher';
+    echo '<pre>';
+    var_dump($person);
+    echo '</pre>';
+
+    $person['address'] ??= 'unknown';
+    echo '<pre>';
+    var_dump($person);
+    echo '</pre>';
+
+    echo '<pre>';
+    var_dump(array_keys($person));
+    echo '</pre>';
+
+    echo '<pre>';
+    var_dump(array_values($person));
+    echo '</pre>';
 
 
 
-      
     ?>
 </body>
 </html>
