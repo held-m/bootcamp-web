@@ -23,7 +23,7 @@ $b = [2];
 
 //i will be index of $a
 // num is the number of $a, and $num2 of $b
-function arrayDiff(array $a, $b)
+function arrayDiff(array $a, array $b)
 {
     foreach ($b as $num2)
     {
