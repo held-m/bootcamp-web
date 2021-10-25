@@ -23,21 +23,19 @@ $b = [2];
 
 //i will be index of $a
 // num is the number of $a, and $num2 of $b
-function arrayDiff($a, $b)
+function arrayDiff(array $a, $b)
 {
-    foreach ($a as $i => $num)
+    foreach ($b as $num2)
     {
-        foreach ($b as $num2) {
+        foreach ($a as $i => $num) {
             if ($num == $num2) {
                 unset($a[$i]);
-
             }
         }
     }
-    sort($a);
-    return $a;
+    $c = array_values($a);
+    return $c;
 }
-var_dump(arrayDiff($a, $b));
 ?>
 </body>
 </html>
