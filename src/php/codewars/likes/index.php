@@ -70,12 +70,16 @@ function likes(array $arr)
             return $name1 . ", " . $name2 . " and " . $name3 . " like this";
             break;
         case $arrSize > 3:
-            foreach ($arr as $i => $name) {
+            //foreach ($arr as $i => $name) {
                 $x = $arrSize - 2;
-                $nextName = $arr[$i+1];
-                $names = $name.', '.$nextName.' and '.$x.' others like this';
-                return $names;
-            }
+                //$nextName = $arr[$i+1];
+                //$names = $name.', '.$nextName.' and '.$x.' others like this';
+                //return $names;
+
+                //einfacher:
+                return $arr[0].', '.$arr[1].' and '.$x.' others like this';
+
+            //}
     }
 }
 echo likes(["Hans", "Peter", "Sit", "Kuckuck"]);
