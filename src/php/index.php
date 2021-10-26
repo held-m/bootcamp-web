@@ -31,7 +31,8 @@
             <ul>
                 <li> Just try understand and repeat.</li>
                 <li> In same time read  <a href="https://www.amazon.de/-/en/Eric-Freeman/dp/149207800X/ref=pd_bxgy_img_1/261-0582468-7014102?pd_rd_w=R6gnN&pf_rd_p=289750ef-2548-403a-9263-64d1c3b3297e&pf_rd_r=9MEXAZF4SFJPZWPQXKK3&pd_rd_r=f075c070-f9c1-480d-882b-3c66c4782b9d&pd_rd_wg=2xCbE&pd_rd_i=149207800X&psc=1">the book "Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software"</a> </li> 
-                <li>Write some patterns from the book</li>
+		<li>Write some patterns from the book</li>
+		<li> <a href="https://barryvanveen.nl/blog/51-8-resources-to-learn-about-solid-design-principles">Learn SOLID</a> </li>
             </ul>    
         </li> 
     </ul>
