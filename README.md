@@ -13,7 +13,7 @@
 		sudo systemctl start docker.service
 		sudo systemctl enable docker.service
 		sudo groupadd docker
-		sudo gpasswd -a user yourUserName
+		sudo gpasswd -a user docker (replace UserName with your username in archlinux)
 
 6. Start `docker-compose up`
 7. In a browser open `http://localhost:8000` . You should see instruction.
